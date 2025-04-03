@@ -28,5 +28,18 @@ public class CourseController
 			}
 			return null;
 	}
+	@GetMapping("/getPackages")
+	public ResponseEntity<BeanList<String>> getPackages()
+	{
+		try {
+				return new ResponseEntity<BeanList<String>>(service.getPackageList(),HttpStatus.OK);
+			}catch(Exception e)
+			{
+				e.printStackTrace();
+			}
+			return null;
+	}
+//	@GetMapping("/getPackages")
+//	public ResponseEntity
 
 }

@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class BeanList<Course> 
+public class BeanList<T> 
 {
-	private ArrayList<Course> beanList;
+	private ArrayList<T> beanList;
 
 }

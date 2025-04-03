@@ -7,4 +7,6 @@ public interface CourseService
 {
 	BeanList<Course> getCourseList();
 
+	BeanList<String> getPackageList();
+
 }
