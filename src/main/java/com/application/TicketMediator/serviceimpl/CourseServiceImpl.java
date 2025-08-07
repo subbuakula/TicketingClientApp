@@ -17,8 +17,8 @@ import com.application.TicketMediator.model.Course;
 import com.application.TicketMediator.service.CourseService;
 
 @Service
-public class CourseServiceImpl implements CourseService{
-
+public class CourseServiceImpl implements CourseService
+{
 	@Value("${api.base.url}")
 	private String BASE_URL;
 	@Value("${api.tourists.endpoint.courses}")

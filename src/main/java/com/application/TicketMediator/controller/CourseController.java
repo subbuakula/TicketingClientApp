@@ -12,8 +12,8 @@ import com.application.TicketMediator.model.Course;
 import com.application.TicketMediator.service.CourseService;
 
 @RestController
-@RequestMapping("client-api")
-public class CourseController 
+@RequestMapping("client-api-course")
+public class CourseController
 {
 	@Autowired
 	private CourseService service;
@@ -39,7 +39,4 @@ public class CourseController
 			}
 			return null;
 	}
-//	@GetMapping("/getPackages")
-//	public ResponseEntity
-
 }
